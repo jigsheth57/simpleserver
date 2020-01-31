@@ -29,5 +29,3 @@ sed "s/linux64-sha1/$LINUX64_SHA1/" |
 sed "s/_TIME_/$UPDATED_TIME/" |
 cat > repo-index.yml 2>&1
 cat repo-index.yml
-
-rm main
